@@ -1,3 +1,3 @@
 # palgimar.github.io-
 Marise asjad
-Siin on asjad, miad pean esitama koolitöödes
+Siin on asjad, mida pean esitama koolitöödes

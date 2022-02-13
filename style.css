@@ -24,7 +24,7 @@ header .header-banner {
     /*margin-top:  70px;*/
     margin-bottom: 5px;
     margin-top:10px;
-    top:60%;
+    top:65%;
   
 
     
@@ -127,7 +127,7 @@ header nav ul {
 
 .tutvustus{
     font-family: "Open Sans", sans-serif;
-    font-weight: 200;
+    font-weight: 150;
     font-size: 21x;
     margin-right: 20px;
     text-align: justify;

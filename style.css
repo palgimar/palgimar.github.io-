@@ -68,7 +68,8 @@ header h2 {
     letter-spacing: 5px;
     color: #6b6c74;
     text-transform: uppercase;
-    padding: 20px;
+    margin-bottom: 2%;
+    margin-top: 2%;
 
     
     position: absolute;

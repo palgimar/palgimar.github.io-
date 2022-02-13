@@ -69,12 +69,10 @@ header h2 {
     text-transform: uppercase;
     margin-bottom: 2%;
     margin-top: 2%;
-
     
     position: absolute;
     text-align: center;
    
-
     left: 42%;
     top: 2%;
     transform: translate(-30%);
@@ -100,7 +98,7 @@ header nav ul {
 
     display: block;
     /*margin: 0 auto;*/
-    /*margin-top: 20px;*/
+    margin-top: 30%;
     text-align: center; /*IE*/
     width: fit-content;
     position: absolute;

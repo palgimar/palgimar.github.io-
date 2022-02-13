@@ -324,6 +324,7 @@ header .header-banner {
     
     height: calc(100vh - 400px);
      margin-top:50px;
+    top: 30%;
     
 }   
     
@@ -337,11 +338,14 @@ header h2 {
     
     font-size: 24px;
     margin-top: 20px;
+    top: 10%;
+    
     
 }
     
 header nav ul li { 
 padding: 12px 42px;
+top: 20%;
     
 }
     

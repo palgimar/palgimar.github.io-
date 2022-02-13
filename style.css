@@ -47,7 +47,7 @@ header h1 {
     line-height: 40px;
     text-transform: uppercase;
     
-    padding: 5%;
+    /*padding: 5%;*/
     
     position: absolute;
     left: 50%;
@@ -78,7 +78,7 @@ header h2 {
 
 
     left: 42%;
-    top: 20%;
+    top: 2%;
     transform: translate(-30%);
 }
 

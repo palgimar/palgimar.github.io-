@@ -1,151 +1,97 @@
 <!DOCTYPE html>
-
 <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="" width=device-width, initial-scale=1.0>
+        <title></title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <section id="section1">
+                <h3>1. osa: Kell</h3>
+                <div id="clock"></div>
+            </section>
+            <hr>
+            <section id="section2">
+                <h3>2. osa: Vormid</h3>
+                <form id="form">
+                    <!-- input field --->
+                    <div id="input-fields">
+                        <div id="first-name">
+                            <label for="fname">Eesnimi:</label>
+                            <input type="text" id="fname" name="fname">
+                        </div>
+                        <div id="last-name">
+                            <label for="lname">Perekonnanimi:</label>
+                            <input type="text" id="lname" name="lname">
+                        </div>
+                    </div>
+                    <!-- checkbox --->
+                    <div id="form-checkbox">
+                        <div class="box1">
+                            <input type="checkbox" id="v1" name="v1" value="present">
+                            <label for="vehicle1"> See on kingitus</label> <!-- 5€ --->
+                            
+                        </div>
+                        <p id="result1"></p>
+                        <p></p>
+                        <span>Vali pakend:</span>
+                        <div class="kuldne">
+                            <input type="radio" id="kuldne" name="status" > 
+                            <label for="kuldne">Kuldne</label>
+                            
+                        </div>
+                        <div class="roosa">
+                            <input type="radio" id="roosa" name="status"> 
+                            <label for="roosa">Roosa</label>
+                        </div>
+                        <div class="eco">
+                            <input type="radio" id="eco" name="status">
+                            <label for="eco">Öko</label> 
+                        </div>
+                        <p id="result"></p>
 
-<head>
-
-<meta charset="utf-8">
-<meta name="description" content="Eesti maitsvaim retseptiveeb">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-<title>COOKBOOK | Eesti maitsvaim retseptiveeb</title>
-
-<link rel="stylesheet" href="reset.css" /> 
-<link rel="stylesheet" href="style.css" /> 
-
-</head>
-<body>
-
-   <header>
-    
-
-
-    <header>
-        <section class="header-kiri">
-    
-        <h1>COOKBOOK</h1>
-                     
-        <h2>Eesti maitsvaim retseptiveeb
-            <p><hr><hr/></p></h2>
-
-   
- 
-
-        
-
-        
-    <section>
-        
-    
-            <nav>
-                
-                <ul>
                     
-      
-                    <li><a href="#">Retseptid</a></li>
-                    <li><a href="#">Võta ühendust</a></li>
-                          
-                </ul>          
-      
-            </nav>
+                        <div class="box">
+                            <input type="checkbox" id="v2" name="v2" value="contactless">
+                            <label for="vehicle2"> Soovin kontaktivaba tarnet</label> <!-- 1€ --->
+                        
+                    </div> 
+                    <p id="result2"></p>     
+                    </div> 
+                    <!-- dropdown --->
+                    <div id="dropdown">
+                        <label for="linn">Valige linn: </label>
+                        <select name="linn" id="linn">
+                            <option value="">- Valige linn -</option> 
+                            <option value="tln">Tallinn</option> <!-- 0€ --->
+                            <option value="trt">Tartu</option> <!-- 2.5€ --->
+                            <option value="nrv">Narva</option> <!-- 2.5€ --->
+                            <option value="prn">P&auml;rnu</option> <!-- 3€ --->
+                        </select>
+                    </div>
+                    <div id="calc">
+                        <input type="submit" value="Arvuta tarne hind:" id="btn-delivery">   
+                    </div>
+                    <div id="delivery"  class="hind"></div>
+                </form>
+            </section> 
+            <hr>
+            <section id="section3">
+                <h3>3. osa: Kaart</h3>
+                <div id="map"></div>
+            </section>
+        </main>
+        <script type='text/javascript' src="script.js"></script>
 
-    </section>
-    </header>
 
-    <header>
-        <section class="header-banner">
+        <!--<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[ArAwXLuAqFi1PjYkfTxzDVyuEU2AqV2guoveTrkFMgJlPZ4bRK6MexRcUIfebxdW]' async defer></script>-->
+        <!--<script type='text/javascript' src = 'https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[ArAwXLuAqFi1PjYkfTxzDVyuEU2AqV2guoveTrkFMgJlPZ4bRK6MexRcUIfebxdW]' async defer></script>-->
+        
+        <!--<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>-->
+        <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[Ao16nObDdcYZ-w46eI2KB2jxtaD137CwTwXNNd6nYWOhFp9mDb4qHcRU5GP4Ig1d]' async defer></script>
     
-                   
-
-    
-    </header>
-
- 
-
-</header>
-
-<div class="index-header">
-
-   
-
-    <h2 class="gallery-h2">Meist</h2>
-
-</div>
-  
- 
-
-<main>
-
-
-<section class="gallery-links">
-  
-    <a  class="gallery-image">
-    <div class="container"> 
-    <p class="tutvustus">Me oleme väga head kokad. Me oleme väga head kokad. Me oleme väga head kokad. Me oleme väga head kokad. Me oleme väga head kokad. Me oleme väga head kokad. Me oleme väga head kokad. Me oleme väg head kokad. Me oleme väga head kokad. Me oleme väga head kokad. Me oleme väga head kokad. Me oleme väga head kokad. </p></div>
-    </a>
-
-    <a href="#" class="gallery-image1">
-    <div class="container"> <img class="kokapilt" src="kokk.jpg" alt="meie kokad"/>
-    </div>
-    </a>
-  
-      
-</section>  
-
-
-  
-<section class="gallery-links">
-  
-      
-    <a href="#" class="gallery-image">
-    <div class="container"><img src="eesti_toit.jpg" alt="Eesti köök"/>
-    <p class=post-header>Eesti köök</p></div>
-    </a>
-  
-    <a href="#" class="gallery-image">
-    <div class="container"><img src="aasia_toit.jpg" alt="Aasia köök"/>
-    <p class=post-header>Aasia köök</p></div>
-    </a>
-  
-    <a href="#" class="gallery-image">
-    <div class="container"><img src="itaalia_toit.jpg" alt="Itaalia köök"/>
-    <p class=post-header>Itaalia köök</p></div>
-    </a>
-  
-</section>  
-
-</main>
-
-
-<footer>
-<div>
-    <ul class="footer-links">
-
-        <li><p>Kontakt:</p></li>
-        <li><a href="#">Linn</a></li>
-        <li><a href="#">Aadress</a></li>
-        <li><a href="#">Telefon</a></li>
-        <li><a href="#">E-post</a></li>
-  
-  </ul>
-</div>
-
-
- 
-
-<div class="footer-sm">
-    <div <a href="#"><img src="instagram.png" alt="instagram" /></a>
-    </div>
-            
-    <div><a href="#"><img src="facebook.png" alt="facebook" /></a>
-    </div>
-</div>
-
-
-
-
-</footer>
-
-</body>
-
+    </body>
 </html>

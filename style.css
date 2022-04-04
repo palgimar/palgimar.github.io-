@@ -1,390 +1,159 @@
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-.gallery-image img {
-    width: 100%;
-    border-radius: 75%;
-    border: 4px solid #EEE;
-}
-
-.gallery-image1 img {
-    display: none;
-
-}
-
-
-header .header-banner {
-
-    background-image: url("header.jpg");
-    width: 100%;
-    height: calc(100vh - 500px);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /*display: table;*/
-    padding: 30px 0 30px 0;
-    
-    margin-bottom: 5px;
-    margin-top:20px;
-    top:65%;
-  
-
-    
-}
-
-
-
-header .header-kiri {
-
-    
-    width: 100%;
-    height: calc(100vh - 500px);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /*display: table;*/
-    padding: 30px 0 30px 0;
-    /*margin-top:  20px;*/
-    top:10%;
-     
-
-    
-}
-
-
-header h1 {
-
-    font-family: "Gentium Basic", serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 70px;
-    color: #ff2525;
-    line-height: 40px;
-    text-transform: uppercase;
-    
-    position: absolute;
-    left: 50%;
-    top:1%;
-    transform: translate(-50%);
-
-    
-    /*text-shadow: 2px 2px 8px #000000;*/
-    
-}
-
-
-header h2 {
-    
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    letter-spacing: 5px;
-    color: #6b6c74;
-    text-transform: uppercase;
-
-    
-    position: absolute;
-    text-align: center;
-   
-    
-
-
-    left: 42%;
-    top: 15%;
-    transform: translate(-30%);
-}
-
-
-
-header .logo {
-
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    
-    padding: 10px 0 20px 0;
-    top: 15%;
-    
-    
-}
-
-
-
-
-header nav ul {
-
-    display: block;
-    /*margin: 0 auto;*/
-    margin-top: 20px;
-    margin-bottom:10px;
-    text-align: center; /*IE*/
-    width: fit-content;
-    position: absolute;
-    left: 50%;
-    top:30%;
-    transform: translate(-50%, -50%);
-    
-}
-
-
-.tutvustus{
-    font-family: "Open Sans", sans-serif;
-    font-weight: 150;
-    font-size: 21x;
-    margin-right: 20px;
-    text-align: justify;
-
-}
-    
-header nav ul li {
-    
-    display: inline-block;
-    padding: 3px 3px;
-    
-}
-
-nav ul li a {
-
-    font-family: "Open Sans", sans-serif;
-    font-weight: 100;
-    font-size: 22px;
-    margin-bottom:10px;
-    letter-spacing: 3px;
-    color: #172029;
-    text-transform: uppercase;
-    text-decoration: none;
-
-    
-}
-
-footer {
-
-    width: calc(100% - 80px);
-    padding: 40px 40px;
-    background-color: #000000;
-    margin-top: 20px;
-    
-}
-
-
-footer ul {
-
-    width: fit-content;
-    float: left;
-    padding-left: 0px;
-    
-}
-    
-footer ul li {
-    
-    display: block;
-    /*padding: 0px 0 1px 0;*/
-    margin-bottom: 5px;
-    margin-left: 20%;
-    
-    
-    
-}
-    
-footer ul li p {
-    
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    letter-spacing: 1px;
-    color: #ffffff;
-    text-transform: uppercase;
-    
-}
-    
-footer ul li a {
-    
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 1px;
-    color: #ffffff;
-    /*text-transform: uppercase;*/
-    text-decoration: none;
-    
-}
-overflow: hidden;
-
-.footer-sm {
-
-    width: 62%;
-   margin-left:  100%;
-   
-
-    float: center;
-    
-
-   
-    
-}
-    
-.footer-sm img {
-    
-    width: 15%;
-    margin-top: 10px;
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-bottom: 5px;
-    
-}
-
-hr {
-
-    color: #4f5663;
-    border-width: 2px;
-    width: 30%;
-    margin: 0 auto;
-    margin-bottom: 5px;
-
-    
-}
-    
-.gallery-h2 {
-    
-    font-family: "Open Sans", sans-serif;
-    
-   
-
-    font-weight: 200;
-
-    font-size: 28px;
-    letter-spacing: 2px;
-    padding: 5px;
-    color: #3a383d;
-    text-transform: uppercase;
-    text-align: center;
-
-
-
-
-    
-}
-
-.gallery-image {
-
-    margin-left: 1%;
-    margin-right: 20px;
-    position: relative;
-    text-align: center, justify;
-    -webkit-flex-basis: 300px;
-    -moz-flex-basis: 300px;
-    flex-basis: 300px;
-
-
-    
-    
-   
-  
-    
-    
-} 
-    
-.post-header {       
-    
-    /*kujundus*/
-    
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 22px;
-    letter-spacing: 3px;
-    line-height: 24px;
-    color: #fffd8f;
-    text-transform: uppercase;
-    text-shadow: 3px 3px 9px #111111;
-    
-       /*positsioneerimine*/
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-}
-
-.gallery-links {
-
-    display: flex;
-    flex-flow: row wrap;
-    display: -webkit-flex;
-    -webkit-flex-flow: row wrap;
-    display: -moz-flex;
-    -moz-flex-flow: row wrap;
-    justify-content: center;
-    -o-flex-flow: row wrap;
-    justify-content: center;
-    
-}
-
-@media only screen and (min-width: 950px) {   
-
-header .header-banner {
-    
-    height: calc(100vh - 400px);
-     margin-top:50px;
-    top: 30%;
-    
-}   
-    
-header h1 a {
-    
-    font-size: 80px;
-    
-}  
-    
-header h2 {
-    
-    font-size: 24px;
-    margin-top: 20px;
-    top: 16%;
-    
-    
-}
-    
-header nav ul li { 
-padding: 12px 32px;
-top: 22%;
-    
-}
-    
-.footer-sm {
-
-  margin: 0 0 0 50%;
-  
-
-
-
-}
-
-
-   
-.footer-sm img {
-    
-    width: 10%;
-    margin-top: 10px;
-    margin: 5px 20px 0 90%;
-    
-    
-}
-
-
-.gallery-image1 img {
-    display: block;
-    width: 230px;
-    margin-top: 20px;
-    padding-bottom: 50px;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
 
 /*
-.kokapilt {
-    margin: 0 0 0 30px;
-}
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;
 */
 
+.container-fluid{
+    width: 90%;/* Minu looming */
+}
 
 
 
+section, div {
+    padding: 5px;/* Minu looming */
+}
+
+
+hr {
+    padding-top: 20px;
+    
+}
+
+h3 { 
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    margin: 2px; 
+    
+    
+    
+      
+}
+
+
+.col-lg-12-center
+{
+    justify-content: space-around;
+    
+}
+
+
+.box {
+    padding: 10px;/* Minu looming */
+    margin-left: 4px;/* Minu looming*/
+    
+}
+
+.box1 {
+    padding: 10px;/* Minu looming */
+    margin-left: 2px;/* Minu looming */
+    
+}
+
+.kuldne {
+    color:rgb(182, 164, 8);/* Minu looming */
+    padding:5px;/* Minu looming */
+    margin-left: 16px;/* Minu looming */
+    font-weight: bold; /* Minu looming */
+    
+}
+
+.roosa {
+    color:rgb(255, 5, 122);/* Minu looming */
+    padding:5px;/* Minu looming */
+    margin-left: 16px;/* Minu looming */
+    font-weight: bold; /* Minu looming */
+    
+}
+
+.eco {
+    color:rgb(132, 108, 78);/* Minu looming */
+    padding:5px;/* Minu looming */
+    margin-left: 16px;/* Minu looming */
+    font-weight: bold; /* Minu looming */
+    
+}
+
+
+
+p, label, form {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    margin: 2px;
+    
+}
+
+#form {
+   
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(236, 236, 236);/* Minu looming */
+    
+     
+    
+}
+
+#input-field label {
+s
+  display: inline-block;
+  width: 115px;
+  text-align: right;
+  
+  
+}
+
+#dropdown {
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.hind {
+    float: right;
+    font-weight: bold; /* Minu looming */
+}
+
+#calc {
+    margin-left: 25px;
+    
+}
+
+#clock {
+    
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+    
+}
+
+input[type=submit] {
+    background-color: #008000;
+    color: #FFF;
+    border-radius: 15px;
+    border: none;
+    font-family: 'PT Serif', serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 16px 28px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+#map {
+    position: relative;
+    padding: 10%;/* Minu looming */
+    width: 60%;
+   
+    height: 300px;/* Minu looming */
+    margin: auto;
+   
 }

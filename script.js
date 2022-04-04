@@ -154,10 +154,10 @@
                    e.innerHTML = "3 &euro;";
            }
 
-           else if (v1.value===true)//PROOV!!!   s
-           {
-                   e.innerHTML = "9 &euro;";
-           }
+           //else if (v1.value===true)//PROOV!!!   s
+           //{
+                   //e.innerHTML = "9 &euro;";
+           //}
 
 
    
